@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel art gallery</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Spectral:wght@500;700;800&display=swap"
         rel="stylesheet">
 </head>
@@ -154,17 +152,7 @@
     </main>
     <footer><span>Emanuel Pedroza | 2020 - 2021</span></footer>
 
-    <script>
-        function darkmode() {
-            let element = document.body;
-            element.classList.toggle("dark");
-            for (i = 0; i < document.getElementsByClassName("img-description-wrapper").length; i++) {
-            element = document.getElementsByClassName("img-description-wrapper")[i]
-            element.classList.toggle("dark")
-            }
-        }
-
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
