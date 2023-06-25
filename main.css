@@ -25,12 +25,6 @@ nav {
     font-size: 1.3em;
 }
 
-img.icon {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.175s ease-in-out;
-}
-
 button.toggle-dark-mode {
     color: inherit;
     background-color: inherit;
