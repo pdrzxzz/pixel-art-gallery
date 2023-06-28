@@ -61,7 +61,7 @@ section {
 section img {
     height: calc(20vw - 20px);
     width: calc(20vw - 20px);
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
     object-fit: cover;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     opacity: 1;
