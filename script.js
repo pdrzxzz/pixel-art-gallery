@@ -6,8 +6,8 @@ function darkmode() {
     element.classList.toggle("dark")
     }
     let link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-    link.type = 'image/x-icon';
-    link.rel = 'icon';
-    link.href = './dark-icon.png';
+    link.type.toggle = 'image/x-icon';
+    link.rel.toggle = 'icon';
+    link.href.toggle = './dark-icon.png';
     document.getElementsByTagName('head')[0].appendChild(link);
 }
