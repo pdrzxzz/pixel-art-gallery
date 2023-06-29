@@ -179,9 +179,10 @@ footer {
     .img-description-wrapper {
         width: 70vw;
     }
-    
+
     h1 {
         text-align: left;
+        margin-left: 8px;
     }
 
     .change-theme {
@@ -192,9 +193,11 @@ footer {
         width: 60px;
         height: 60px;
     }
+
     button.toggle-dark-mode::after {
-        content:"theme"
+        content: "theme"
     }
+
     nav {
         bottom: -12px;
         right: 17.97px;
@@ -205,16 +208,19 @@ footer {
     h1 {
         font-size: 5vw;
     }
+
     nav {
         right: 3vw;
         bottom: -10px;
     }
+
     button.toggle-dark-mode {
         width: 10vw;
         height: 10vw;
         font-size: 3.4vw;
         font-weight: bold;
     }
+
     section {
         width: 75vw;
         height: calc(75vw + 60px);
@@ -235,6 +241,7 @@ footer {
         font-size: 3.0vw;
     }
 }
+
 @media screen and (max-width:400px) {
     button.toggle-dark-mode {
         font-size: 2.6vw;
