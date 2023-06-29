@@ -5,7 +5,6 @@ function darkmode() {
     wrapperelement = document.getElementsByClassName("img-description-wrapper")[i]
     wrapperelement.classList.toggle("dark")
     }
-    let element = document.body;
     let link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'icon';
