@@ -108,6 +108,7 @@ footer {
         width: calc(30vw - 20px);
         height: calc(30vw - 20px);
     }
+}
 
 @media screen and (max-width: 1290px) {
     section {
@@ -186,6 +187,7 @@ footer {
         width: calc(85vw - 20px);
         height: calc(85vw - 20px);
     }
+}
 
 
 @media screen and (max-width:500px) {
