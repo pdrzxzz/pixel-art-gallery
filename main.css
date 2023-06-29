@@ -52,10 +52,16 @@ section {
     margin: 32px 16px;
     overflow: hidden;
     width: 20vw;
-    height: calc(20vw + 60px);
+    height: 20vw;
     background-color: inherit;
     align-items: center;
     justify-content: center;
+}
+
+section .img-anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section img {
@@ -65,44 +71,13 @@ section img {
     object-fit: cover;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     opacity: 1;
-    position: absolute;
-    bottom: 60px;
-    right: 10px;
 }
 
-.img-border {
-    width: 10px;
-}
-
-.img-description-wrapper {
-    height: 60px;
-    width: 20vw;
-    background-color: #fff;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
-}
-
-.img-description {
-    font-family: 'Kanit', sans-serif;
-    align-self: center;
-    font-size: 1.2em;
-    text-transform: lowercase;
-    z-index: 2;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    bottom: 0px;
-    color: inherit;
-}
 
 img:hover {
     opacity: 0.85;
     cursor: pointer;
-    transform: scale(1.15);
+    transform: scale(1.075);
 }
 
 footer {
@@ -126,7 +101,7 @@ footer {
 @media screen and (max-width: 1640px) {
     section {
         width: 30vw;
-        height: calc(30vw + 60px);
+        height: 30vw;
     }
 
     section img {
@@ -134,24 +109,15 @@ footer {
         height: calc(30vw - 20px);
     }
 
-    .img-description-wrapper {
-        width: 30vw;
-    }
-}
-
 @media screen and (max-width: 1290px) {
     section {
-        width: 40vw;
-        height: calc(40vw + 60px);
+        width: 45vw;
+        height: 45vw;
     }
 
     section img {
-        width: calc(40vw - 20px);
-        height: calc(40vw - 20px);
-    }
-
-    .img-description-wrapper {
-        width: 40vw;
+        width: calc(45vw - 20px);
+        height: calc(45vw - 20px);
     }
 
     h1 {
@@ -159,19 +125,15 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 824px) {
     section {
-        width: 70vw;
-        height: calc(70vw + 60px);
+        width: 85vw;
+        height: 85vw;
     }
 
     section img {
-        width: calc(70vw - 20px);
-        height: calc(70vw - 20px);
-    }
-
-    .img-description-wrapper {
-        width: 70vw;
+        width: calc(85vw - 20px);
+        height: calc(85vw - 20px);
     }
 
     h1 {
@@ -216,19 +178,15 @@ footer {
     }
 
     section {
-        width: 75vw;
-        height: calc(75vw + 60px);
+        width: 85vw;
+        height: 85vw;
     }
 
     section img {
-        width: calc(75vw - 20px);
-        height: calc(75vw - 20px);
+        width: calc(85vw - 20px);
+        height: calc(85vw - 20px);
     }
 
-    .img-description-wrapper {
-        width: 75vw;
-    }
-}
 
 @media screen and (max-width:500px) {
     button.toggle-dark-mode {
