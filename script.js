@@ -5,14 +5,15 @@ function darkmode() {
     wrapperelement = document.getElementsByClassName("img-description-wrapper")[i]
     wrapperelement.classList.toggle("dark")
     }
+    let element = document.body;
     let link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
     link.rel = 'icon';
     if (element.classList.contains('dark')) {
-    link.href = './bright-icon.png';
+    link.href = './dark-icon.png';
     }
     else {
-    link.href = './dark-icon.png';
+    link.href = './bright-icon.png';
     }
     document.getElementsByTagName('head')[0].appendChild(link);
 }
