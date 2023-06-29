@@ -9,10 +9,10 @@ function darkmode() {
     link.type = 'image/x-icon';
     link.rel = 'icon';
     if (element.classList.contains('dark')) {
-    link.href = './dark-icon.png';
+    link.href = './icons/dark-icon.png';
     }
     else {
-    link.href = './bright-icon.png';
+    link.href = './icons/bright-icon.png';
     }
     document.getElementsByTagName('head')[0].appendChild(link);
 }
