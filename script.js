@@ -2,8 +2,6 @@ function darkmode() {
     let body = document.body;
     body.classList.toggle("dark");
     let link = document.querySelector("link[rel*='icon']")
-    link.type = 'image/x-icon';
-    link.rel = 'icon';
     if (body.classList.contains('dark')) {
     link.href = './icons/dark-icon.png';
     }
