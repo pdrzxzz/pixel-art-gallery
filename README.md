@@ -1,5 +1,5 @@
 # Pixel-art-gallery 🖼🎨
-https://pdrzxzz.github.io/pixel-art-gallery/
+https://pdrzxzz.github.io/Pixel-art-gallery
 ---
 - This is my first website made up from scratch;
 - It's a simple gallery of some arts i made in the past;
